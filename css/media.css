@@ -1,0 +1,302 @@
+@media (max-width: 1209px) {
+  .page-header__logo {
+    padding: 25px 0 40px 10px;
+  }
+
+  .main-nav {
+    width: 430px;
+  }
+
+  .site-list {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .site-list__item {
+    margin-right: 35px;
+  }
+
+  .site-list__item:nth-child(3),
+  .site-list__item:nth-child(6) {
+    margin-right: 0;
+  }
+
+  .site-list__item:nth-child(4) {
+    margin-right: 25px;
+  }
+
+  .site-list__link {
+    padding: 20px 0 4px 0;
+
+    font-family: 'MuseoSansCyrl0', 'Arial', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .page-main__wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding: 35px 0 0 0;
+  }
+
+  .page-main__wrapper::after {
+    display: none;
+  }
+
+  .invitation {
+    margin: 0 auto;
+    margin-bottom: 90px;
+  }
+
+  .invitation__travel {
+    padding: 25px 0 80px 0;
+  }
+
+  .invitation__image {
+    display: none;
+  }
+
+  .invitation__text {
+    display: block;
+  }
+
+  .invitation__text span:first-child {
+    margin-bottom: 10px;
+    font-family: 'MuseoSansCyrl2', 'Arial', sans-serif;
+    font-size: 40px;
+    line-height: 44px;
+    text-transform: uppercase;
+  }
+
+  .invitation__text span:last-child {
+    font-family: 'MuseoSansCyrl1', 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .invitation__btn {
+    width: 310px;
+    padding: 20px 0 20px 0;
+
+    font-family: 'MuseoSansCyrl1', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+
+    border: 2px solid transparent;
+    border-image: linear-gradient(to left top, #15161e , #2b5e9f,#15161e);
+    border-image-slice: 1;
+  }
+
+  .advantages__list {
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .advantages__item {
+    width: 25%;
+    margin: 0;
+  }
+
+  .advantages__item:first-child {
+    width: 25%;
+    padding-right: 0;
+    border-bottom: 0 none;
+  }
+
+  .advantages__item:nth-child(2) {
+    align-items: center;
+
+    background: linear-gradient(to left bottom, rgba(249, 237, 237, 0.01) 55%, rgba(249, 237, 237, 0.4));
+  }
+
+  .advantages__item:nth-child(3) {
+    width: 25%;
+    padding-right: 0;
+
+    background: linear-gradient(to right bottom, rgba(249, 237, 237, 0.01) 55%, rgba(249, 237, 237, 0.6));
+  }
+
+  .advantages__item:last-child {
+    align-items: center;
+
+    background: linear-gradient(to left bottom, rgba(249, 237, 237, 0.01) 55%, rgba(249, 237, 237, 0.6));
+  }
+}
+
+@media (max-width: 767px) {
+  .background__wrapper {
+    background-image: url("../img/bg-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container {
+    width: 290px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .page-header {
+    background: none;
+
+    border-bottom: none 0;
+  }
+
+  .page-header__wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .page-header__logo {
+    padding: 11px 0 16px 20px;
+
+    border-left: 1px solid #ed5d2b;
+    border-right: 1px solid #ed5d2b;
+  }
+
+  .page-header__logo::after {
+    top: 54px;
+    left: -1px;
+  }
+
+  .main-nav {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .site-list {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .site-list__item {
+    width: 100%;
+  }
+
+  .site-list__link {
+    padding: 17px 0 17px 25px;
+
+    font-family: 'MuseoSansCyrl1', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: left;
+
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, #ed5d2b, #2b5e9f, #ed5d2b);
+    border-image-slice: 1;
+  }
+
+  .site-list__link--active {
+    border-bottom: 1px solid #ed5d2b;
+  }
+
+  .page-main__wrapper {
+    flex-direction: column;
+
+    padding: 0 0 30px 0;
+  }
+
+  .invitation {
+    margin-bottom: 80px;
+  }
+
+  .invitation__travel {
+    align-items: flex-start;
+
+    margin-bottom: 140px;
+    padding: 55px 0 55px 0;
+  }
+
+  .invitation__image {
+    display: none;
+  }
+
+  .invitation__text {
+    display: block;
+  }
+
+  .invitation__text span:first-child {
+    font-size: 40px;
+    line-height: 42px;
+  }
+
+  .invitation__text span:last-child {
+    font-family: 'MuseoSansCyrl1', 'Arial', sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .invitation__btn {
+    width: 100%;
+    padding: 15px 0 15px 0;
+
+    font-family: 'MuseoSansCyrl1', 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+
+    border: 2px solid transparent;
+    border-image: linear-gradient(to left top, #ed5d2b , #2b5e9f, #ed5d2b);
+    border-image-slice: 1;
+  }
+
+  .advantages__list {
+    width: 290px;
+  }
+
+  .advantages__item {
+    width: 140px;
+
+    margin: 0 0 10px 0;
+  }
+
+  .advantages__item:first-child {
+    width: 140px;
+
+    background: none;
+
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to left, rgba(249, 237, 237, 0.01) 15%, rgba(255, 255, 255, 0.7));
+    border-image-slice: 1;
+  }
+
+  .advantages__item:nth-child(2) {
+    margin-right: 0;
+
+    background: none;
+
+    border-left: 1px solid transparent;
+    border-image: linear-gradient(to top, rgba(249, 237, 237, 0.01) 15%, rgba(255, 255, 255, 0.7));
+    border-image-slice: 1;
+  }
+
+
+  .advantages__item:nth-child(3) {
+    width: 140px;
+
+    background: none;
+  }
+
+  .advantages__item:last-child {
+    width: 140px;
+
+    background: none;
+
+    border-left: 1px solid transparent;
+    border-image: linear-gradient(to bottom, rgba(249, 237, 237, 0.01) 15%, rgba(255, 255, 255, 0.7));
+    border-image-slice: 1;
+  }
+}
